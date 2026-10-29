@@ -1,0 +1,30 @@
+# Secrets / بيئات
+.env
+.env.*
+!.env.example
+.dev.vars
+.wrangler/
+.wrangler.toml.local
+
+# Node
+node_modules/
+npm-debug.log*
+.npm/
+
+# Build
+dist/
+build/
+out/
+.next/
+.output/
+*.tsbuildinfo
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
